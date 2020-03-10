@@ -1,6 +1,7 @@
 import React from 'react';
 import Cardlist from './components/cardlist/cardlist';
 import Searchbar from './components/searchbar/searchbar';
+import './App.css';
 
 const App = function() {
 	const [ monsters, setMonsters ] = React.useState([]);
@@ -26,7 +27,7 @@ const App = function() {
 
 	return (
 		<div className="App">
-			<h1>App</h1>
+			<h1>Monsters</h1>
 
 			{/* Extrapolate into component instead */}
 			{/* <input type="search" placeholder="search monsters" onChange={handleSearchChange} value={searchbar} /> */}
